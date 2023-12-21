@@ -1,0 +1,214 @@
+.container {
+    height: 2700px;
+    width: 1500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Calibri', sans-serif;
+}
+
+.first_container {
+    width: 100%;
+    height: 700px;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.first_container_img {
+    max-width: 120px;
+    max-height: 120px;
+    margin-left: 90px;
+}
+
+.first_container_body {
+    text-align: center;
+    width: 70%;
+    margin-top: 240px;
+    color: white;
+    font-size: large;
+}
+
+.first_container_body_h1 {
+    font-size: 90px;
+    padding: 0;
+    margin: 10px;
+}
+
+.button {
+    padding: 15px 50px;
+    border-radius: 3px;
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.first_container_right {
+    color: white;
+    display: flex;
+    margin-left: 30px;
+    width: 15%;
+}
+
+.first_container_right_body {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.second_container {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    background-color: white;
+    padding: 50px 130px;
+}
+
+.second_container_left,
+.second_container_center,
+.second_container_right {
+    height: 300px;
+    width: 27%;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+.third_container {
+    height: 720px;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px 0 0 0;
+}
+
+.third_container_img {
+    max-width: 567px;
+    margin-left: 100px;
+}
+
+.third_container_body {
+    max-width: 700px;
+    font-size: 17px;
+}
+
+.forth_container {
+    height: 315px;
+    width: 100%;
+    background-image: url(reviews-bg.jpg);
+    text-align: center;
+    color: white;
+}
+
+.forth_container_body {
+    margin-top: 140px;
+}
+
+.fifth_container {
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.six_container {
+    height: 600px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.six_container_1,
+.six_container_2,
+.six_container_3,
+.six_container_4,
+.six_container_5,
+.six_container_6,
+.six_container_7,
+.six_container_8,
+.six_container_9,
+.six_container_10 {
+    width: 20%;
+    height: 220px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.six_container_1 {
+    background-image: url(italian.jpg);
+}
+
+.six_container_2 {
+    background-image: url(indian.jpg);
+}
+
+.six_container_3 {
+    background-image: url(french.jpg);
+}
+
+.six_container_4 {
+    background-image: url(steak.jpg);
+}
+
+.six_container_5 {
+    background-image: url(seafood.jpg);
+}
+
+.six_container_6 {
+    background-image: url(sushi.jpg);
+}
+
+.six_container_7 {
+    background-image: url(mexican.jpg);
+}
+
+.six_container_8 {
+    background-image: url(chinese.jpg);
+}
+
+.six_container_9 {
+    background-image: url(pizza.jpg);
+}
+
+.six_container_10 {
+    background-image: url(american.jpg);
+}
+
+.six_container_11,
+.six_container_12,
+.six_container_13,
+.six_container_14,
+.six_container_15 {
+    width: 20%;
+    text-align: center;
+    background-color: white;
+}
+.six_container_number {
+    font-size: 40px;
+    padding: 5px 5px;
+    margin: 0px 0px;
+}
+.six_container_words {
+    margin: 0px
+}
+.six_container_1_body,
+.six_container_1_header {
+    margin: 0px;
+}
+.six_container_1_header {
+    font-size: 30px;
+}
+a {
+    color: white;
+}
